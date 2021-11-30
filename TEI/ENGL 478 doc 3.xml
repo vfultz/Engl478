@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter to Judge W.A. Carter from George W. Black from Chicago Jail 14 March 1867</title>
+         </titleStmt>
+         <sourceDesc>
+           <bibl>
+              <author> George W. Black</author>
+              <title>Letter to Judge W.A. Carter from George W. Black from Chicago Jail 14 March 1867>
+              <date when="1867-03-14"> March 14th, 1867</date></title>
+           </bibl>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text type= "letter">
+      <body>
+         <opener>
+            <dateline>
+               <settlement>Chicago</settlement> Jail <date when="1867-03-14">March 14, 1867</date>
+               <address>
+                  <addrLine>
+                     <persName>Judge W.A. Carter</persName> <settlement>Washington D.C.</settlement>
+                  </addrLine></address>
+            </dateline>
+            <salute>Much Respected Friend,</salute>
+         </opener>
+         <p>I would like to write youu a long letter, but it may not be best to do so at present. </p>
+         <p>Mr. Sticking has six lawyers employed in his case, and they may give me more toruble than anticipated and possibly might hbe the means of having me put to death ignominiously, they of course will not five me a fair chance if they can present it. His friends have tried to injure me by causing falsehoods to be published in the daily paper.</p>
+         <p>I have done the same with you that I would have done with my own father were he living, and now that justice and right may be sustained and for the sake of my aged mother, my wife and myself, I hope that your interest may not grow cold in this case.</p>
+         <p>The glow that surrounds my friends, caused by the change under which I am held is great indeed, and at times causes me to feel desponding.</p>
+         <p>But I am thankful that in you (through a stranger) I have a friend that will see the thing through and show it up in true colors. </p>
+         <p>I know not how long I may have to stay in <settlement>Chicago</settlement>, I would be pleased to have you write to me if <choice><sic>consistant</sic><corr>consistent</corr></choice>to do.</p>
+         <p>Hoping that I may see, or hear from you soon, with care,</p>
+         <closer>
+            <l>Your Obt Servant</l>
+            <signed>George W. Black</signed></closer>
+           <postscript>
+              <l>N.B.</l></lb>
+              <l>Should you write to me and to my wife <persName>Frannie Black</persName>, No. 25 Blue Island Avenue
+                 <signed>B&#8212;</signed>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from George W. Black to Judge W.A. Carter Esq 19 February 1867 </title>
+            <author>George W. Black</author>
+            <editor role="contributing">Victoria Fultz</editor>
+            <editor role="contributing">Hannah Cahill</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="vf">Victoria Fultz</persName>
+               <persName xml:id="hc">Hannah Cahill</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>English 478 Digital Archiving and Editions</distributor>
+            <availability>
+               <p>The original documetns are the property of Kenneth Price</p>
+               <p>Any reuse of these materials should credit the contributors<persName>Hannah Cahill</persName><persName>Victoria Fultz</persName><persName>Kenneth Price</persName></p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <note type="project">Our transcription is based on digital imiges of original documents.</note>
+               <author>George W. Black</author>
+               <title>Letter from George W. Black to Judge W.A. Carter esq 19 February 1867</title>
+               <date when="1867-02-19">February 19, 1867</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <p>As students of English 478, Victoria Fultz and Hannah Cahill have chosen to encode and transcribe orginal documents written by or for Walt Whitman.</p>
+     </encodingDesc>
+     <profileDesc>
+     <particDesc>
+        <person role="sender">
+           <persName xml:id="gb">George W.Black </persName>
+        </person>
+        <person role="recipient">
+           <persName xml:id="wac">Judge W.A.Carter Esa</persName>
+        </person> 
+       
+     </particDesc>
+     </profileDesc>
+    
+  </teiHeader>
+  <text type="letter">
+      <body>
+         <pb xml:id= "n1001" facs="whitman1001.jpg"/>
+         <pb xml:id= "n002" facs ="whitman1002.jpg"/>
+         <opener>
+            <dateline>
+               <settlement>Chicago <choice><orig>Ills</orig><reg>Illinois</reg></choice></settlement>
+               <date when="1867-02-19"><choice><orig>Feby</orig><reg>February</reg></choice> 19th, 1867</date>
+            <address><addrLine><persName>Judge W.A. Carter Esq</persName><settlement>Washington D.C.</settlement></addrLine></address>
+            </dateline>
+            
+            <salute>Dear Sir,</salute>
+         </opener>
+         
+         <p>Since your departure some of my Chicago friends have presented me with certificates of character, they having known me many years. They said that they would do no hurt to have them with me. </p>
+         <p>I have also written to <persName>Samuel Dean</persName>in <settlement>Salt Lake</settlement>, for like certificate. I having employed with him in the Quartermaster Department as clerk, at the place. I also wrote to <persName>Webb &#38; Brother</persName>, freighters in that place. They employed me when I first went into the country for several months, and knew my reputation while there.</p>
+         <p> I directed them to send the certificate to you at <settlement>Ft. Bridger</settlement>, thinking you would be likely to get them there, as I may <pb/>be taken west soon to recieve them here.</p>
+         <p><persName>Mr. Yates</persName> came to day and took me out to visit my wife and som other friends. I think him very kind, and a perfect gentleman.</p>
+         <p><persName>Stickney</persName>told some of the prisoners that he had money enough to get him out of this scrape. Thouugh I do not fewar that he will accomplish what he effects to.</p>
+         <p>I have all the faith that any one possible could have in yourself and <persName>Mr. Yates</persName>, and thinkg that I shall have justice done, and come home <choice><sic>exhonorated</sic><corr>exonerated</corr></choice>from all blame, for God knows that the thought of committing a wicked crime was never in my heart. Words would not induce me to do anything that would <choice><sic>brake</sic><corr>break</corr></choice>a wife's heart and bring any aged mother in sorrow to her grave. Pray excuse me for writing such sentiments but I cannot help it.</p>
+         <p>Allow me to thank youu for the kind interest you have manifested, for which I shall be indebted to you.</p>
+         <p>Any word from you will gladly be recieved through <persName>Mr. Yates</persName>at this place.</p>
+        <closer>
+          With Respect<lb/>
+            Your obedient servant
+           <signed>George W. Black<note><ref target="#n1"></ref></note>
+              </signed>
+        </closer>
+      <note xml:id="n1" type="editorial">George W. Black and M.S. Stickney were accused of murdering a Mr. Bicking on Octoberr 19th 1866 while all three men were traveling together near Salt Lake City. Black at the time of writing this letter had been detained in the Cook County Jail in Chicago, but would later be released in March of 1867 despite pleading guilty. </note>
+         
+      </body>
+  </text>
+</TEI>

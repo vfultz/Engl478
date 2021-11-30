@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter to Judge W.A.Carter from A.E. Bicking 17 February 1867 </title>
+            <author>A.E. Bicking</author>
+            <editor role="contributing">Victoria Fultz</editor>
+            <editor role="contributing">Hannah Cahill</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="vf">Victoria Fultz</persName>
+               <persName xml:id="hc">Hannah Cahill</persName>
+               
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>English 478 Digital Archiving and Editions</distributor>
+            <availability>
+               <p>The original documents are the property of Kenneth Price</p>
+               <p>Any reuse of these materials should credit the contributors <persName>Hannah Cahill</persName><persName>Victoria Fultz</persName><persName>Kenneth Price</persName></p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <note type="project">Our transcription is based on digital images of the original documents</note>
+               <date when="1867-02-17">17th February 1867</date>            </bibl>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+        <opener>
+           <dateline>
+              <settlement>Denver. C. <choice><orig>T</orig><reg>Territory</reg></choice></settlement><date when= "1867-02-17" ></date><choice><orig>Feb.</orig><reg>February</reg></choice></dateline>
+        <address><addrLine>Hon.W.A.C<ref target="#wac"></ref></addrLine></address>
+              <salute>Dear Sir</salute>
+        </opener><p>Allow me, even at this late hour, to acknowledge the receipt of your Dispatch, the wonderful success with which you met. I learned from the papers. Indeed sir, I felt it to be vain mockery to offer thanks for so great a kindness. May the<choice><sic>Alwise</sic><corr>All Wise</corr></choice> Providence reward you with blessings untold.</p>
+        <p>Recieved a letter from <persName>Mr. Yates</persName> on Friday, disiring me to procure the "Requisition Papers", I consulted the "Authorities" here and found that nothing could be done here, the dead being perpetrated in <settlement>"Dacotah"</settlement>.</p>
+        <p>Fortunately I met a <persName>Mr. Wilson</persName>, who has been appointed Judge of a County in <settlement>Dacotah</settlement> embracing that portion of country where my husband was murdered.</p>
+        <p>He is here awaiting his commission, and will aid in <choice><sic>makeing</sic><corr>making</corr></choice>out the necessary papers to send to the Govenor who resides at <settlement>"Yankton"</settlement>.The time required to obtain the returns will be no help than twenty five dayys. In the meantime, if there are any suggestions you can make which will be of aid to me, or any advice to give, I shall be greatly obliged to you. Would likke to know if <persName>Black</persName>told what was done with the body?.</p>
+        <p>I will not extenuate. Shall be glad to hear from you soon if convenient.</p>
+        <closer>Respectfully Yours,
+           <signed>A.E.Bicking</signed>
+        </closer>
+         
+      </body>
+  </text>
+</TEI>

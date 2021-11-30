@@ -1,0 +1,43 @@
+p {
+text-align: left;
+font-family:'Eczar', serif;;
+font-size: 15px;
+color: #b1938b;
+text-indent: 50px; 
+line-height: 1.5;
+
+}
+
+
+h1 {
+font-family: 'Eczar', serif;
+text-decoration: underline;
+    
+}
+
+
+p.note /* name of your class here */ {
+color: #dfe0ff;  
+line-height: 1.5;
+}
+
+
+div.notes /* name of your class here */ {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;   
+}
+
+
+body /* if you want the background for the whole page, you should use the "body" selector */ {
+font-family:'Eczar', serif;
+color:black; 
+background-color:#fffee9;
+font-size:18px;
+width:auto;
+height:auto;
+margin-right:175px;
+margin-left:175px;
+
+ }
