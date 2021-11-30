@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Letter from Attorney General Henry Stantbery to Jesse O. Norton, Esq. 28 Febraury 1867</title>
+           <author>Attorney General</author>
+           <editor role="contributing">Hannah Cahill</editor>
+           <editor role="contributing">Victoria Fultz</editor>
+           <respStmt>
+              <resp>Transcription and encoding</resp>
+              <persName xml:id="HC">Hannah Cahill</persName>
+              <persName xml:id="VF">Victoria Fultz</persName>
+           </respStmt>
+        </titleStmt>
+        <publicationStmt>
+           <distributor>English 478 Digital Archiving and Editions</distributor>
+           <availability>
+              <p>The original documents are the property of Kenneth Price</p>
+              <p>Any reuse of these materials should credit the contributers <persName>Hannah Cahill</persName>, <persName>Victoria Fultz</persName> and Kenneth Price</p>
+           </availability>
+        </publicationStmt>
+        <sourceDesc>
+           <bibl>
+              <note type="project">Our Transcription is based on digital images of original documents.</note>
+              <date when="1867-03-05">5th March 1867</date>
+           </bibl>
+        </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <p>As students of English 478, Victoria Fultz and Hannah Cahill have chosen to encode and transcribe original documents written by or for Walt Whitman.</p>
+     </encodingDesc>
+  </teiHeader>
+  <text type="letter">
+ 
+      <body>
+            <dateline>
+               <address><addrLine><placeName>Attorney Generals Office</placeName></addrLine><lb/>
+               <addrLine><placeName>Washington</placeName></addrLine></address><lb/>
+               <date when="1867-02-28">Feb. 28. 1867.</date><lb/>
+            </dateline>
+         <opener>
+            <salute>
+               <persName>Jesse O. Norton, Esq.</persName> U.S. Attorney.<lb/>
+               <placeName>Chicago. Ill.</placeName><lb/>
+               Sir:
+            </salute>
+         </opener>
+         <p>I enclose herewith a ltter addressed to me by Mr. W.A. Carter of <settlement type="territory">Utah Terr.</settlement> in which I am informed that a murder was committed recently in <settlement type="territory">Dakota Terr.</settlement> of a merchant or peddler named <persName>Bicking,</persName> whose home was in <settlement>Denver, Colorado Terr.,</settlement> (where his widow resides still,) by two men named <persName>Stickney</persName> and <persName>Black</persName>, (persons formerly belonging in <settlement type="city">Rochford</settlement> and <settlement type="city">Chicago,</settlement> respectively, in <settlement>Illinois</settlement>, where they are said to have opulent &#38; influential relatives.)&#8212;the latter
+            <pb/>of whom has made full confession;&#8212;and that both are now in jail at <settlement>Chicago, Ill.</settlement>, awaiting an examination, which is set for the 8th prose.,<unclear reason="illegible" resp="#HC">;</unclear> And the proper requisition of the Executive authority of the Territory in which the murder was committed, &#38; the proper warrant of extradition for trial in the courts of said Territory. The first Sec. of the Act of Congress of 12th Feb. 1793, (12 <choice><sic>Stats</sic><corr>States</corr></choice>, 302,) seems to afford the Executive authority of the Territory in which the murder was committed, all the advice he could need for his action, upon one <choice><sic>confirm:ation</sic><corr>confirmation</corr></choice> of the fact, But as so early a day has been fixed for the hearing, there is little probability that the proper requisition will be forthcoming in so short a time&#8212; &#38; it is possible that
+            <pb/>A failure of justice might result from the absence of parties or counsel interested in favor of the prosecution. 
+         </p>
+         <p>Under these peculiar circumstances, you are hereby directed to act for the <settlement type="country">United States</settlement>, &#38; the <settlement type="Territory">Territory of Dakota</settlement>, in the matter upon such Data as may be accessible to you, &#38; procure such a commitment as shall <unclear reason="illegible" resp="#HC">subverse</unclear> the ends of justice.
+         </p>
+         <p>
+            A copy of this letter is furnished to Mr. Carter, from whom you may expect further information &#38; Testimony.
+         </p>
+         <closer>
+            <salute>Respectfully, &#38; Yours,</salute><lb/>
+            <signed>Henry Stanbery
+            <lb/>Attorney General</signed>
+            <salute>A true copy, from original</salute><lb/>
+            <signed>Walt Whitman</signed><lb/> 
+            <name type="place">Attorney General's Office.</name>
+         </closer>
+      </body>
+  </text>
+</TEI>

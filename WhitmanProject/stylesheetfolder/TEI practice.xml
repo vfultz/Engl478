@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Walk Whitman to Moncure Conway 22 April 1870</title>
+            <author>Walt Whitman</author>
+            <editor>Brett Barney</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>ENLG878</authority>
+            <availability>
+               <p>Anyone in our class can see this at any time</p>
+            </availability>
+            <date when="2021-10-14">October 14, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Walt Whitman</author>
+               <address>
+                  <addrLine>Columbia Library</addrLine>
+               </address>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+
+</TEI>

@@ -1,0 +1,51 @@
+p {
+text-align: left;
+font-family: times-new-roman;
+font-size: 10px;
+color: red;
+text-indent: 50px; 
+
+}
+
+
+h1 {
+font-family: Zapf-Chancery, cursive;
+text-decoration: underline;
+    
+}
+
+
+p.note /* name of your class here */ {
+color: rgb(255,36,0);  
+line-height: 1.5;
+}
+
+
+div.notes /* name of your class here */ {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;   
+}
+
+
+body {
+background-color:white;
+font-size:18px;
+width:auto;
+height:auto;
+margin-right:175px;
+margin-left:175px;
+padding:50px;
+}
+
+
+
+
+
+
+
+
+
+
+

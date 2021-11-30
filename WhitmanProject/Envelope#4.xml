@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Envelope from Attorney General's Office to W.A Carter, Esq. 28 February 1867</title>
+            <author>Attorney General</author>
+            <editor role="contributing">Hannah Cahill</editor>
+            <editor role="contributing">Victoria Fultz</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="HC">Hannah Cahill</persName>
+               <persName xml:id="VF">Victoria Fultz</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+           <distributor>English 478 Digital Archiving and Editions</distributor>
+            <availability>
+               <p>The original documents are the property of Kenneth Price</p>
+               <p>Any reuse of these materials should credit the contributers <persName>Hannah Cahill</persName>, <persName>Victoria Fultz</persName> and Kenneth Price</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <note type="project">Our Transcription is based on digital images of original documents.</note>
+               <date when="1867-03-05">5th March 1867</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <p>As students of English 478, Victoria Fultz and Hannah Cahill have chosen to encode and transcribe original documents written by or for Walt Whitman.</p>
+     </encodingDesc>
+  </teiHeader>
+  <text type="envelope">
+      <body>
+            <note type="authorial" place="left" rend="portrait">Note to Norton <lb/>5th March/67</note>
+            <p><address>
+               <addrLine>Attorney General's Office,</addrLine>
+               <addrLine>Official Business.</addrLine>
+               <addrLine>M.T. Pleasants</addrLine>
+               <addrLine>Chief Clerk.</addrLine>
+            </address></p>
+            <p><address>
+               <note type="editorial" place="center"></note>
+               <addrLine><addName>W.A. Carter, Esq.</addName></addrLine>
+               <addrLine>
+                  <settlement type="territory">of Utah Terr.</settlement>
+               </addrLine>
+               <addrLine>
+                  <settlement type="district">Washington, D.C.</settlement>
+               </addrLine>
+            </address></p>
+            <ab><stamp type="postal"><gap reason="illegible" resp="#HC"/>HINGTON<unclear reason="illegible"> DC</unclear> FEB 28</stamp></ab>
+      </body>
+  </text>
+</TEI>
