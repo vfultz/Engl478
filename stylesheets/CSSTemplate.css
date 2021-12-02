@@ -16,11 +16,6 @@ text-decoration: underline;
 }
 
 
-p.note /* name of your class here */ {
-color: #dfe0ff;  
-line-height: 1.5;
-}
-
 
 div.notes /* name of your class here */ {
   margin-top: 100px;
@@ -39,5 +34,6 @@ width:auto;
 height:auto;
 margin-right:175px;
 margin-left:175px;
+padding:50px;
 
  }
