@@ -1,3 +1,4 @@
+
 p {
 text-align: left;
 font-family:'Eczar', serif;;
@@ -5,25 +6,21 @@ font-size: 15px;
 color: #b1938b;
 text-indent: 50px; 
 line-height: 1.5;
-width:0;
-height:0;
-margin-right:50px;
-margin-left:50px;
-padding:80px;
 
 }
 
 
 h1 {
 font-family: 'Eczar', serif;
-text-decoration: bold;
-width:0;
-height:0;
-margin-right:50px;
-margin-left:40px;
-padding:80px;
+text-decoration: underline;
+    
 }
 
+
+p.note /* name of your class here */ {
+color: #dfe0ff;  
+line-height: 1.5;
+}
 
 
 div.notes /* name of your class here */ {
@@ -39,9 +36,7 @@ font-family:'Eczar', serif;
 color:black; 
 background-color:#fffee9;
 font-size:18px;
-width:0;
-height:0;
-margin-right:20px;
-margin-left:20px;
-padding:50px;
- }
+width:auto;
+height:auto;
+margin-right:175px;
+margin-left:175px;
